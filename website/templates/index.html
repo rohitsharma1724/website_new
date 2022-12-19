@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+
+
+{% block content %}
+<p id="test"></p>
+<div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Type here" aria-label="Message" id="msg">
+      <div class="input-group-append">
+<!--        <button class="btn btn-outline-secondary" onclick="window.location.reload()" id="button2">Reload</button>-->
+        <button class="btn btn-outline-secondary" type="button" id="sendBtn">Send</button>
+      </div>
+</div>
+
+{% endblock %}
